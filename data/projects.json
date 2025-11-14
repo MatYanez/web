@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "landing-ecommerce",
+    "title": "Landing Ecommerce",
+    "description": "Landing page enfocada en conversión para tiendas online.",
+    "category": "Ecommerce"
+  },
+  {
+    "slug": "web-corporativa",
+    "title": "Web Corporativa",
+    "description": "Sitio institucional profesional para empresas.",
+    "category": "Corporativo"
+  },
+  {
+    "slug": "portfolio-creativo",
+    "title": "Portfolio Creativo",
+    "description": "Portafolio visual para creativos, fotógrafos o diseñadores.",
+    "category": "Portfolio"
+  }
+]
