@@ -1,1 +1,50 @@
 
+@import "bootstrap-custom";
+@import "ios-theme";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: $bg-ios;
+  color: #1c1c1e;
+  font-family: "SF Pro Text", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+/* Ajuste del main para separar del navbar */
+.ios-main {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+/* Utilidades pequeñas */
+.ios-container {
+  max-width: 1100px;
+}
+
+.ios-title {
+  font-family: "SF Pro Display", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  letter-spacing: -0.03em;
+}
+
+.ios-subtitle {
+  font-size: 0.98rem;
+  color: #6c6c70;
+}
+
+/* Bootstrap override pequeñito para links subrayados */
+a {
+  color: inherit;
+}
